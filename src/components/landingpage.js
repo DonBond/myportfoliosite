@@ -7,7 +7,7 @@ class LandingPage extends Component {
             <div style={{width:'100%', margin:'auto'}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <img src="https://www.tm-town.com/assets/default_male600x600-79218392a28f78af249216e097aaf683.png"
+                        <img src="https://raw.githubusercontent.com/DonBond/Bday/master/ddd.JPG"
                         alt="avatarImage" className="avatar-img"/>
                         <div className="banner-text">
                             <h1>Developer</h1>

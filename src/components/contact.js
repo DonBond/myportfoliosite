@@ -14,8 +14,8 @@ class Contact extends Component {
                             style={{height:'250px'}}
                         />*/}
                         <img 
-                            src="https://www.merchtropolis.com/images/avatars/generator/229_1539695849.png"
-                            alt="avatar"
+                            src="https://raw.githubusercontent.com/DonBond/Bday/master/ddd.JPG"
+                            alt="donovan"
                             style={{height:'250px'}}
                         />
                         <p style={{width:'75%',margin:'auto',paddingTop:'1em'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 

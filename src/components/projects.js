@@ -72,7 +72,7 @@ class Projects extends Component {
                     {/*Project 1*/}
                     <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
                         <CardTitle style={{color:'#fff', height:'176px',background:
-                        'url(http://html5beginners.com/wp-content/uploads/2014/09/java.png) center / cover'}}>Javascript project #1</CardTitle>
+                        'url(https://raw.githubusercontent.com/DonBond/Bday/master/bday.JPG) center / cover'}}>Javascript project #1</CardTitle>
                         <CardText>
                             I created a Birthday application for a company i work for. It was a Internal Sharepoint site. Everything is in Javascript. 
                             If it is the users B-day i show them at the top of the list. if their B-day is within 2 weeks i also display them but indicate that their B-day is still coming.
