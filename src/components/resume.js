@@ -4,6 +4,62 @@ import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
 
+const proDes =<p>Front end Development on internal sites.<br/>
+Sharepoint Development.<br/>
+Nintex Workflows.</p>
+
+const EOHDes = <p>Development of new software using JavaScript, Knockout, C#, MVC and SQL.<br/>
+                2nd line support to all customers.<br/>
+                Maintenance of current software.<br/>
+                Creation of Functional Specification, Business Requirements Documentation and support charters.<br/>
+                SharePoint migration using ShareGate.<br/>
+                SharePoint development</p>;
+
+const kindleDes = <p>Planning and development of new software and maintenance of current software.<br/>
+Drawing reports and Schedules as per request from clients.<br/>
+       Online Support - assist clients in requests regarding functionality such as
+       the unlocking of users, adding of user rights and entities to the system such as brokers and
+       re-insurers.<br/>
+        assist clients in requests regarding questions such as
+ policy errors and endorsement errors.<br/>
+Researching and assisting in implementing new Technologies.<br/>
+Client training</p>
+
+const yeahDes = <p>Installing operating systems such as Windows 7, XP, and XP embedded on Kiosk PC.<br/>
+Installing touch screen drivers as well as other drivers on the Kiosk PCs.<br/>
+Setting up Logmein and Team Viewer 7 on the Kiosks for Remote access.<br/>
+Installing our Platform on the Kiosk and ensuring that the applications installed work through our Platform.<br/>
+Updating the Kiosk with latest applications that have been developed.<br/>
+Testing applications that have been developed.<br/>
+Creating basic reports in Excel for clients.<br/>
+Remote installations of our Platform and applications in the UK, Sweden and Germany.<br/>
+Installing our applications on Apple and Android tablets.<br/>
+Monitoring all units and troubleshooting should the need arise.<br/>
+Installing and configuring printers in the kiosks.<br/>
+Installing and configuring Bill Reader.<br/>
+General IT functions</p>
+
+const libraDes= <p>Maintain and call on existing customers as well as cold calling.<br/>
+Arrange appointments.  <br/>
+Prepare quotations.   <br/>
+Attend to deliveries when necessary.  <br/>
+Demonstrate and explain the function of equipment.</p>
+
+const TurnbuckleDes=<p>Created and maintained HTML websites for clients.  <br/>
+Word press sites using Word press templates provided.  <br/>
+Worked with PHP sites for clients and maintained updates to the sites.</p>
+
+const bcxDes =<p>Development of client applications using C#.<br/>
+Assisted in developing a debt management application for Interfusion. <br/>
+Worked in Visual Studio 3.5 and SQL server 2005.<br/>
+Assisted in developing a system for Sasol which used services 
+SharePoint development for internal projects.<br/>
+Created an internal website for BCX using SharePoint designer. <br/>
+Created and developed web parts and updated master pages.<br/>
+Database Development.<br/>
+Creating tables and joining tables. Writing stored procedures.<br/>
+Creating SQL Reports in reporting services.</p>
+
 class Resume extends Component {
     render() {
         return(
@@ -20,7 +76,9 @@ class Resume extends Component {
                         <h2 style={{paddingTop:'2em'}}>Donovan Botes</h2>
                         <h4 style={{color:'grey'}}>Developer</h4>
                         <hr style={{borderTop:'3px solid #833fb2',width:'50%'}} />
-                        <p>I'm a Software Developer in the Information Technology Industry. I consider myself to be a hard working and dedicated individual who possess excellent communication and interpersonal skills. I am able to work in diverse and dynamic environments comprising of teams or as an individual. I am self-driven, self-motivated and thoroughly enjoy confronting new challenges. I have a keen interest in new technology and I continuously strive to develop my skills and knowledge through actively learning, adapting to my environment and embracing change.</p>
+                        <p>I'm a Software Developer in the Information Technology Industry. I consider myself to be a hard working and dedicated individual who possess excellent communication and interpersonal skills.</p>
+                            <p>I am able to work in diverse and dynamic environments comprising of teams or as an individual. I am self-driven, self-motivated and thoroughly enjoy confronting new challenges. 
+                            I have a keen interest in new technology and I continuously strive to develop my skills and knowledge through actively learning, adapting to my environment and embracing change.</p>
                         <hr style={{borderTop:'3px solid #833fb2',width:'50%'}} />
                         <h5>Address</h5>
                         <p>1 Hacker Way Menlo Park, 94025</p>
@@ -48,84 +106,43 @@ class Resume extends Component {
                             startYear={2018}
                             endYear="Present"
                             jobName="Proconics"
-                            jobDescription="Re-designing of intranet site.
-                            developing Sharepoint components.
-                            Nintex Workflows."
+                            jobDescription={proDes}
                         />
                         <Experience
                             startYear={2016}
                             endYear={2018}
                             jobName="EOH"
-                            jobDescription="Development of new software using JavaScript, Knockout, C#, MVC and SQL.
-                            2nd line support to all customers.
-                            Maintenance of current software.
-                            Creation of Functional Specification, Business Requirements Documentation and support charters.
-                            SharePoint migration using ShareGate.
-                            SharePoint development"
+                            jobDescription={EOHDes}
                         />
                         <Experience
                             startYear={2014}
                             endYear={2016}
                             jobName="Kindle"
-                            jobDescription="Planning and development of new software and maintenance of current software.
-                            Drawing reports and Schedules as per request from clients.
-                                   Online Support - assist clients in requests regarding functionality such as
-                                   the unlocking of users, adding of user rights and entities to the system such as brokers and
-                                   re-insurers. assist clients in requests regarding questions such as
-                             policy errors and endorsement errors.
-                            Researching and assisting in implementing new Technologies.
-                            Client training
-                            "
+                            jobDescription={kindleDes}
                         />
                         <Experience
                             startYear={2011}
                             endYear={2014}
                             jobName="Yeahpoint"
-                            jobDescription="Installing operating systems such as Windows 7, XP, and XP embedded on Kiosk PC.
-                            Installing touch screen drivers as well as other drivers on the Kiosk PCs.
-                            Setting up Logmein and Team Viewer 7 on the Kiosks for Remote access.
-                            Installing our Platform on the Kiosk and ensuring that the applications installed work through our Platform.
-                            Updating the Kiosk with latest applications that have been developed.
-                            Testing applications that have been developed.
-                            Creating basic reports in Excel for clients.
-                            Remote installations of our Platform and applications in the UK, Sweden and Germany.
-                            Installing our applications on Apple and Android tablets.
-                            Monitoring all units and troubleshooting should the need arise.
-                            Installing and configuring printers in the kiosks.
-                            Installing and configuring Bill Reader.
-                            General IT functions"
+                            jobDescription={yeahDes}
                         />
                         <Experience
                             startYear={2011}
                             endYear={2011}
                             jobName="Libra Labels"
-                            jobDescription="Maintain and call on existing customers as well as cold calling.  Arrange appointments.  
-                            Prepare quotations.   
-                            Attend to deliveries when necessary.  
-                            Demonstrate and explain the function of equipment."
+                            jobDescription={libraDes}
                         />
                         <Experience
                             startYear={2010}
                             endYear={2011}
                             jobName="Turnbuckle"
-                            jobDescription="Created and maintained HTML websites for clients.  
-                            Word press sites using Word press templates provided.  
-                            Worked with PHP sites for clients and maintained updates to the sites."
+                            jobDescription={TurnbuckleDes}
                         />
                         <Experience
                             startYear={2007}
                             endYear={2010}
                             jobName="BCX"
-                            jobDescription="Development of client applications using C#.
-                            Assisted in developing a debt management application for Interfusion. 
-                            Worked in Visual Studio 3.5 and SQL server 2005.
-                            Assisted in developing a system for Sasol which used services 
-                            SharePoint development for internal projects.
-                            Created an internal website for BCX using SharePoint designer. 
-                            Created and developed web parts and updated master pages.
-                            Database Development.
-                            Creating tables and joining tables. Writing stored procedures.
-                            Creating SQL Reports in reporting services."
+                            jobDescription={bcxDes}
                         />
 
 
