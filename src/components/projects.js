@@ -16,11 +16,7 @@ class Projects extends Component {
                         <CardTitle style={{color: '#000', height:'176px', background:
                         'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>React Project #1</CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident,
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            I created a Portfolio site for myself. I created this as i love creating React applications. This was a really fun Project.
                         </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
@@ -78,11 +74,8 @@ class Projects extends Component {
                         <CardTitle style={{color:'#fff', height:'176px',background:
                         'url(http://html5beginners.com/wp-content/uploads/2014/09/java.png) center / cover'}}>Javascript project #1</CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident,
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            I created a Birthday application for a company i work for. It was a Internal Sharepoint site. Everything is in Javascript. 
+                            If it is the users B-day i show them at the top of the list. if their B-day is within 2 weeks i also display them but indicate that their B-day is still coming.
                         </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
