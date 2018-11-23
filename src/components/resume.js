@@ -77,7 +77,7 @@ class Resume extends Component {
                         <h4 style={{color:'grey'}}>Developer</h4>
                         <hr style={{borderTop:'3px solid #833fb2',width:'50%'}} />
                         <p>I'm a Software Developer in the Information Technology Industry. I consider myself to be a hard working and dedicated individual who possess excellent communication and interpersonal skills.</p>
-                            <p>I am able to work in diverse and dynamic environments comprising of teams or as an individual. I am self-driven, self-motivated and thoroughly enjoy confronting new challenges. 
+                        <p>I am able to work in diverse and dynamic environments comprising of teams or as an individual. I am self-driven, self-motivated and thoroughly enjoy confronting new challenges. 
                             I have a keen interest in new technology and I continuously strive to develop my skills and knowledge through actively learning, adapting to my environment and embracing change.</p>
                         <hr style={{borderTop:'3px solid #833fb2',width:'50%'}} />
                         <h5>Address</h5>
