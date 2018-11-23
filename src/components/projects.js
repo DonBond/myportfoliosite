@@ -14,7 +14,7 @@ class Projects extends Component {
                     {/*Project 1 */}
                     <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
                         <CardTitle style={{color: '#000', height:'176px', background:
-                        'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>Reacr Project #1</CardTitle>
+                        'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>React Project #1</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -34,7 +34,7 @@ class Projects extends Component {
                     {/*Project 2 */}
                     <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
                         <CardTitle style={{color: '#000', height:'176px', background:
-                        'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>Reacr Project #2</CardTitle>
+                        'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>React Project #2</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
