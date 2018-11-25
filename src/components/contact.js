@@ -41,12 +41,7 @@ class Contact extends Component {
                                     KingDon1984
                                 </ListItemContent>
                             </ListItem>
-                            <ListItem>
-                                <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
-                                <i className="fa fa-linkedin" aria-hidden="true"/>
-                                    https://www.linkedin.com/in/donovan-botes-00652b11
-                                </ListItemContent>
-                            </ListItem>
+
                         </List>
                     </div>
                 </Cell> 
