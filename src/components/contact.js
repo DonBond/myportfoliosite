@@ -4,7 +4,7 @@ import {Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
 class Contact extends Component {
     render() {
         return(
-            <Grid>
+            <Grid className="contact-grid">
                 <Cell col={4}>
                     <div style={{textAlign:'center'}}>
                         <img 
@@ -24,25 +24,25 @@ class Contact extends Component {
                     <div className="contact-list">
                         <List>
                             <ListItem>
-                                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
                                 <i className="fa fa-phone-square" aria-hidden="true"/>
                                     072 640 0936
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
                                 <i className="fa fa-envelope" aria-hidden="true"/>
                                     jetdon1@gmail.com
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
                                 <i className="fa fa-skype" aria-hidden="true"/>
                                     KingDon1984
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
                                 <i className="fa fa-linkedin" aria-hidden="true"/>
                                     https://www.linkedin.com/in/donovan-botes-00652b11
                                 </ListItemContent>

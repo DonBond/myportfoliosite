@@ -95,18 +95,21 @@ padding: 2em;
 }
 
 .contact-grid hr {
-  border-top: 5px dotted #000;
+  border-top: 5px dotted #fff;
   width: 50%;
   margin: auto;
 }
 
 .contact-list li{
+  font-size: 12px;
+}
+
+.contact-list li{
   color: #fff;
-  font-size: 23px;
 }
 .contact-list i{
-  font-size: 66px;
-  padding-right: 5rem;
+  font-size: 25px;
+  padding-right: 2rem;
   color: #fff;
 }
 
