@@ -100,9 +100,14 @@ padding: 2em;
   margin: auto;
 }
 
+.contact-list li{
+  color: #fff;
+  font-size: 23px;
+}
 .contact-list i{
   font-size: 66px;
   padding-right: 5rem;
+  color: #fff;
 }
 
 /*contact page css*/
