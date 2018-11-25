@@ -24,19 +24,19 @@ class Contact extends Component {
                     <div className="contact-list">
                         <List>
                             <ListItem>
-                                <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{fontSize: '17px', fontFamily: 'Anton'}}>
                                 <i className="fa fa-phone-square" aria-hidden="true"/>
                                     072 640 0936
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{fontSize: '17px', fontFamily: 'Anton'}}>
                                 <i className="fa fa-envelope" aria-hidden="true"/>
                                     jetdon1@gmail.com
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{fontSize: '17px', fontFamily: 'Anton'}}>
                                 <i className="fa fa-skype" aria-hidden="true"/>
                                     KingDon1984
                                 </ListItemContent>
