@@ -23,14 +23,14 @@ class LandingPage extends Component {
                                 <a href="https://github.com/DonBond" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-github-square" aria-hidden="true"/>
                                 </a>
-                                {/*codecamp*/}
+                                {/*codecamp
                                 <a href="https://www.google.com" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-free-code-camp" aria-hidden="true"/>
-                                </a>
-                                {/*youtube*/}
+                                </a>*/}
+                                {/*youtube
                                 <a href="https://www.google.com" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-youtube-square" aria-hidden="true"/>
-                                </a>
+                                </a>*/}
                             </div>
                         </div>
                     </Cell>
