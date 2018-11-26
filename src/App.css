@@ -144,8 +144,8 @@ padding: 2em;
 }
 
 .social-links {
-  display: flex;
-  justify-content: space-between;
+  /*display: flex;
+  justify-content: space-between;*/
   width: 50%;
   margin: auto;
 }
