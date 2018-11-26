@@ -24,24 +24,38 @@ class Contact extends Component {
                     <div className="contact-list">
                         <List>
                             <ListItem>
-                                <ListItemContent style={{fontSize: '150%', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{fontSize: '150%', fontFamily: 'Anton', justifyContent: 'center'}}>
                                 <i className="fa fa-phone-square" aria-hidden="true"/>
+                                    {/*072 640 0936*/}
+                                </ListItemContent>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemContent style={{fontSize: '150%', fontFamily: 'Anton', justifyContent: 'center'}}>
                                     072 640 0936
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent style={{fontSize: '150%', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{fontSize: '150%', fontFamily: 'Anton', justifyContent: 'center'}}>
                                 <i className="fa fa-envelope" aria-hidden="true"/>
+                                    {/*jetdon1@gmail.com*/}
+                                </ListItemContent>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemContent style={{fontSize: '150%', fontFamily: 'Anton', justifyContent: 'center'}}>
                                     jetdon1@gmail.com
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent style={{fontSize: '150%', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{fontSize: '150%', fontFamily: 'Anton', justifyContent: 'center'}}>
                                 <i className="fa fa-skype" aria-hidden="true"/>
+                                   {/* KingDon1984*/}
+                                </ListItemContent>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemContent style={{fontSize: '150%', fontFamily: 'Anton', justifyContent: 'center'}}>
                                     KingDon1984
                                 </ListItemContent>
                             </ListItem>
-
                         </List>
                     </div>
                 </Cell> 
