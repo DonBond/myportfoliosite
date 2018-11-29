@@ -257,59 +257,6 @@ class Projects extends Component {
                     </Card>
                 </div>
             )
-        }else if(this.state.activeTab === 3){
-            return (
-                <div className="projects-grid">
-                    {/*Project 1*/}
-                    <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
-                        <CardTitle style={{color:'#000', height:'176px',background:
-                        'url(https://cloud.google.com/images/sql-server/lead-graphic.png) center / cover'}}>SQL project #1</CardTitle>
-                        <CardText>
-                        I created a Portfolio site for myself. I created this as i love creating React applications. This was a really fun Project.
-                        </CardText>
-                        <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>Live Demo</Button>
-                        </CardActions>
-                        <CardMenu style={{color:'#000'}}>
-                            <IconButton name="share"/>
-                        </CardMenu>
-                    </Card>
-                    {/*Project 2*/}
-                    <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
-                        <CardTitle style={{color:'#000', height:'176px',background:
-                        'url(https://cloud.google.com/images/sql-server/lead-graphic.png) center / cover'}}>SQL project #2</CardTitle>
-                        <CardText>
-                        I created a Portfolio site for myself. I created this as i love creating React applications. This was a really fun Project.
-                        </CardText>
-                        <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>Live Demo</Button>
-                        </CardActions>
-                        <CardMenu style={{color:'#fff'}}>
-                            <IconButton name="share"/>
-                        </CardMenu>
-                    </Card>
-                    {/*Project 3*/}
-                    <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
-                        <CardTitle style={{color:'#000', height:'176px',background:
-                        'url(https://cloud.google.com/images/sql-server/lead-graphic.png) center / cover'}}>SQL project #3</CardTitle>
-                        <CardText>
-                        I created a Portfolio site for myself. I created this as i love creating React applications. This was a really fun Project.
-                        </CardText>
-                        <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>Live Demo</Button>
-                        </CardActions>
-                        <CardMenu style={{color:'#fff'}}>
-                            <IconButton name="share"/>
-                        </CardMenu>
-                    </Card>
-                </div>
-            )
         }
     }
    
