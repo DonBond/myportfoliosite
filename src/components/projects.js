@@ -244,7 +244,7 @@ class Projects extends Component {
                         <CardTitle style={{color:'#000', height:'176px',background:
                         'url(https://ih0.redbubble.net/image.416412087.0587/flat,550x550,075,f.jpg) center / cover'}}>C# project #3</CardTitle>
                         <CardText>
-                        I created a Portfolio site for myself. I created this as i love creating React applications. This was a really fun Project.
+                        I created a site for fetching data from a device in Zimbabwe. if gets the data from a excel sheet. It checks the date and if it is todays date it gets data for today
                         </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
