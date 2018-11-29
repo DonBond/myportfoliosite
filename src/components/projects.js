@@ -267,7 +267,6 @@ class Projects extends Component {
                     <Tab>React</Tab>
                     <Tab>Javascript</Tab>
                     <Tab>C#</Tab>
-                    <Tab>SQL</Tab>
                 </Tabs>
 
                     <Grid>
