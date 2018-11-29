@@ -11,8 +11,60 @@ class Projects extends Component {
         if (this.state.activeTab === 0) {
             return(
                 <div className="projects-grid">
-                    {/*Project 1 */}
-                    <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
+                    {/*Project 1*/}
+                    <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
+                        <CardTitle style={{color:'#000', height:'176px',background:
+                        'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>C# project #1</CardTitle>
+                        <CardText>
+                        I created this Portfolio site for myself. I created this as I love creating React applications. 
+                        This was a really fun Project.
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>GitHub</Button>
+                            <Button colored>CodePen</Button>
+                            <Button colored>Live Demo</Button>
+                        </CardActions>
+                        <CardMenu style={{color:'#000'}}>
+                            <IconButton name="share"/>
+                        </CardMenu>
+                    </Card>
+                    {/*Project 2*/}
+                    <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
+                        <CardTitle style={{color:'#000', height:'176px',background:
+                        'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>C# project #2</CardTitle>
+                        <CardText>
+                        I created a React Task list app. 
+                        This was one of the best sites I created as it helps me get my tasks done. It saves to a xml sheet
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>GitHub</Button>
+                            <Button colored>CodePen</Button>
+                            <Button colored>Live Demo</Button>
+                        </CardActions>
+                        <CardMenu style={{color:'#000'}}>
+                            <IconButton name="share"/>
+                        </CardMenu>
+                    </Card>
+                    {/*Project 3*/}
+                    <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
+                        <CardTitle style={{color:'#000', height:'176px',background:
+                        'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>C# project #3</CardTitle>
+                        <CardText>
+                            I created a Portfolio site for myself. I created this as i love creating React applications. This was a really fun Project.
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>GitHub</Button>
+                            <Button colored>CodePen</Button>
+                            <Button colored>Live Demo</Button>
+                        </CardActions>
+                        <CardMenu style={{color:'#000'}}>
+                            <IconButton name="share"/>
+                        </CardMenu>
+                    </Card>
+                </div>
+                )
+                   {/* <div className="projects-grid">
+                    <Card shadow={5} className="projects-card-flex-item">
                         <CardTitle style={{color: '#000', height:'176px', background:
                         'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>React Project #1</CardTitle>
                         <CardText>
@@ -27,32 +79,11 @@ class Projects extends Component {
                             <IconButton name="share" />
                         </CardMenu>
                     </Card>
-                    {/*Project 2 */}
-                    <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
-                        <CardTitle style={{color: '#000', height:'176px', background:
-                        'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>React Project #2</CardTitle>
-                        <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident,
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </CardText>
-                        <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>Live Demo</Button>
-                        </CardActions>
-                        <CardMenu style={{color: '#fff'}}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
-                    {/*Project 3 */}
-                    <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
+                    <Card shadow={5} className="projects-card-flex-item">
                         <CardTitle style={{color: '#000', height:'176px', background:
                         'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>React Project #1</CardTitle>
                         <CardText>
-                            I created a portfolio site for myself.
+                            I created a Portfolio site for myself. I created this as i love creating React applications. This was a really fun Project.
                         </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
@@ -63,84 +94,125 @@ class Projects extends Component {
                             <IconButton name="share" />
                         </CardMenu>
                     </Card>
-                </div>
-                
-            )
+                    <Card shadow={5} className="projects-card-flex-item">
+                        <CardTitle style={{color: '#000', height:'176px', background:
+                        'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>React Project #1</CardTitle>
+                        <CardText>
+                            I created a Portfolio site for myself. I created this as i love creating React applications. This was a really fun Project.
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>GitHub</Button>
+                            <Button colored>CodePen</Button>
+                            <Button colored>Live Demo</Button>
+                        </CardActions>
+                        <CardMenu style={{color: '#fff'}}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+            </div> */}
+            
+            
+            
         }else if(this.state.activeTab === 1){
             return (
                 <div className="projects-grid">
                     {/*Project 1*/}
-                    <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
-                        <CardTitle style={{color:'#fff', height:'176px',background:
-                        'url(https://raw.githubusercontent.com/DonBond/Bday/master/bday.JPG) center / cover'}}>Javascript project #1</CardTitle>
+                    <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
+                        <CardTitle style={{color:'#000', height:'176px',background:
+                        'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTjwLc6tNy_uSjt-bn7SnQeLIvtUxd156BZEdcFRItAijRwMNc) center / cover'}}>C# project #1</CardTitle>
                         <CardText>
-                            I created a Birthday application for a company i work for. It was a Internal Sharepoint site. Everything is in Javascript. 
-                            If it is the users B-day i show them at the top of the list. if their B-day is within 2 weeks i also display them but indicate that their B-day is still coming.
+                        I created a Birthday application for a company i work for. It was a Internal Sharepoint site. Everything is in Javascript. 
+                        If it is the users B-day i show them at the top of the list. if their B-day is within 2 weeks i also display them but indicate that their B-day is still coming.
                         </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
                             <Button colored>CodePen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
-                        <CardMenu style={{color:'#fff'}}>
+                        <CardMenu style={{color:'#000'}}>
                             <IconButton name="share"/>
                         </CardMenu>
                     </Card>
                     {/*Project 2*/}
-                    <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
-                        <CardTitle style={{color:'#fff', height:'176px',background:
-                        'url(http://html5beginners.com/wp-content/uploads/2014/09/java.png) center / cover'}}>Javascript project #2</CardTitle>
+                    <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
+                        <CardTitle style={{color:'#000', height:'176px',background:
+                        'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTjwLc6tNy_uSjt-bn7SnQeLIvtUxd156BZEdcFRItAijRwMNc) center / cover'}}>C# project #2</CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident,
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        I created a Birthday application for a company i work for. It was a Internal Sharepoint site. Everything is in Javascript. 
+                        If it is the users B-day i show them at the top of the list. if their B-day is within 2 weeks i also display them but indicate that their B-day is still coming.
                         </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
                             <Button colored>CodePen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
-                        <CardMenu style={{color:'#fff'}}>
+                        <CardMenu style={{color:'#000'}}>
                             <IconButton name="share"/>
                         </CardMenu>
                     </Card>
                     {/*Project 3*/}
-                    <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
-                        <CardTitle style={{color:'#fff', height:'176px',background:
-                        'url(http://html5beginners.com/wp-content/uploads/2014/09/java.png) center / cover'}}>Javascript project #3</CardTitle>
+                    <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
+                        <CardTitle style={{color:'#000', height:'176px',background:
+                        'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTjwLc6tNy_uSjt-bn7SnQeLIvtUxd156BZEdcFRItAijRwMNc) center / cover'}}>C# project #3</CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident,
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        I created a Birthday application for a company i work for. It was a Internal Sharepoint site. Everything is in Javascript. 
+                        If it is the users B-day i show them at the top of the list. if their B-day is within 2 weeks i also display them but indicate that their B-day is still coming.
                         </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
                             <Button colored>CodePen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
-                        <CardMenu style={{color:'#fff'}}>
+                        <CardMenu style={{color:'#000'}}>
                             <IconButton name="share"/>
                         </CardMenu>
                     </Card>
                 </div>
-            )
+                )
+                {/*<div className="projects-grid">
+                    
+                    <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto', marginBottom: '10px'}}>
+                        <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Update</CardTitle>
+                        <CardText>
+                        I created a Birthday application for a company i work for. It was a Internal Sharepoint site. Everything is in Javascript. 
+                        If it is the users B-day i show them at the top of the list. if their B-day is within 2 weeks i also display them but indicate that their B-day is still coming.
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>View Updates</Button>
+                        </CardActions>
+                    </Card>
+                    <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto', marginBottom: '10px'}}>
+                        <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Update</CardTitle>
+                        <CardText>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Aenan convallis.
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>View Updates</Button>
+                        </CardActions>
+                    </Card>
+                    
+                    <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto', marginBottom: '10px'}}>
+                        <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Update</CardTitle>
+                        <CardText>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Aenan convallis.
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>View Updates</Button>
+                        </CardActions>
+                    </Card>
+                </div> */}
+            
         }else if(this.state.activeTab ===2){
             return (
                 <div className="projects-grid">
                     {/*Project 1*/}
-                    <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
+                    <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
                         <CardTitle style={{color:'#000', height:'176px',background:
                         'url(https://ih0.redbubble.net/image.416412087.0587/flat,550x550,075,f.jpg) center / cover'}}>C# project #1</CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident,
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        I created a app for scania to upload truck info to the DB. They import the data with a Excel sheet and the data is pulled from the sheet to the DB
                         </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
@@ -152,15 +224,11 @@ class Projects extends Component {
                         </CardMenu>
                     </Card>
                     {/*Project 2*/}
-                    <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
+                    <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
                         <CardTitle style={{color:'#000', height:'176px',background:
                         'url(https://ih0.redbubble.net/image.416412087.0587/flat,550x550,075,f.jpg) center / cover'}}>C# project #2</CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident,
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        I created a Portfolio site for myself. I created this as i love creating React applications. This was a really fun Project.
                         </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
@@ -172,15 +240,11 @@ class Projects extends Component {
                         </CardMenu>
                     </Card>
                     {/*Project 3*/}
-                    <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
+                    <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
                         <CardTitle style={{color:'#000', height:'176px',background:
                         'url(https://ih0.redbubble.net/image.416412087.0587/flat,550x550,075,f.jpg) center / cover'}}>C# project #3</CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident,
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        I created a Portfolio site for myself. I created this as i love creating React applications. This was a really fun Project.
                         </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
@@ -197,15 +261,11 @@ class Projects extends Component {
             return (
                 <div className="projects-grid">
                     {/*Project 1*/}
-                    <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
+                    <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
                         <CardTitle style={{color:'#000', height:'176px',background:
                         'url(https://cloud.google.com/images/sql-server/lead-graphic.png) center / cover'}}>SQL project #1</CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident,
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        I created a Portfolio site for myself. I created this as i love creating React applications. This was a really fun Project.
                         </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
@@ -217,15 +277,11 @@ class Projects extends Component {
                         </CardMenu>
                     </Card>
                     {/*Project 2*/}
-                    <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
+                    <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
                         <CardTitle style={{color:'#000', height:'176px',background:
                         'url(https://cloud.google.com/images/sql-server/lead-graphic.png) center / cover'}}>SQL project #2</CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident,
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        I created a Portfolio site for myself. I created this as i love creating React applications. This was a really fun Project.
                         </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
@@ -237,15 +293,11 @@ class Projects extends Component {
                         </CardMenu>
                     </Card>
                     {/*Project 3*/}
-                    <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
+                    <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
                         <CardTitle style={{color:'#000', height:'176px',background:
                         'url(https://cloud.google.com/images/sql-server/lead-graphic.png) center / cover'}}>SQL project #3</CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident,
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        I created a Portfolio site for myself. I created this as i love creating React applications. This was a really fun Project.
                         </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
