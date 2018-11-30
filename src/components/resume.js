@@ -3,6 +3,7 @@ import {Grid, Cell} from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import ExamsPassed from './examspassed';
 
 const proDes =<p>Front end Development on internal sites.<br/>
 Sharepoint Development.<br/>
@@ -97,7 +98,16 @@ class Resume extends Component {
                             startYear={2004}
                             endYear={2006}
                             schoolName="University of Johannesburg"
-                            schooleDescription="Studied "
+                            schooleDescription="Studied"
+                        />
+
+                        <ExamsPassed 
+                            ExamMessage="Exams Completed"
+                            Examhead="Microsoft Exams Passed"
+                            Exam1="480 – Programming in HTML5 with Javascript and CSS"
+                            Exam2="526 – Windows-based Client Development"
+                            Exam3="528 – Web-based Client Development"
+                            Exam4="536 – Application Development Foundation"
                         />
                         <hr style={{borderTop:'3px solid #e22947'}}/>
 
