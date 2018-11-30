@@ -62,56 +62,7 @@ class Projects extends Component {
                         </CardMenu>
                     </Card>
                 </div>
-                )
-                   {/* <div className="projects-grid">
-                    <Card shadow={5} className="projects-card-flex-item">
-                        <CardTitle style={{color: '#000', height:'176px', background:
-                        'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>React Project #1</CardTitle>
-                        <CardText>
-                            I created a Portfolio site for myself. I created this as i love creating React applications. This was a really fun Project.
-                        </CardText>
-                        <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>Live Demo</Button>
-                        </CardActions>
-                        <CardMenu style={{color: '#fff'}}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
-                    <Card shadow={5} className="projects-card-flex-item">
-                        <CardTitle style={{color: '#000', height:'176px', background:
-                        'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>React Project #1</CardTitle>
-                        <CardText>
-                            I created a Portfolio site for myself. I created this as i love creating React applications. This was a really fun Project.
-                        </CardText>
-                        <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>Live Demo</Button>
-                        </CardActions>
-                        <CardMenu style={{color: '#fff'}}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
-                    <Card shadow={5} className="projects-card-flex-item">
-                        <CardTitle style={{color: '#000', height:'176px', background:
-                        'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>React Project #1</CardTitle>
-                        <CardText>
-                            I created a Portfolio site for myself. I created this as i love creating React applications. This was a really fun Project.
-                        </CardText>
-                        <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>Live Demo</Button>
-                        </CardActions>
-                        <CardMenu style={{color: '#fff'}}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
-            </div> */}
-            
-            
+                )       
             
         }else if(this.state.activeTab === 1){
             return (
@@ -121,8 +72,8 @@ class Projects extends Component {
                         <CardTitle style={{color:'#000', height:'176px',background:
                         'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTjwLc6tNy_uSjt-bn7SnQeLIvtUxd156BZEdcFRItAijRwMNc) center / cover'}}>C# project #1</CardTitle>
                         <CardText>
-                        I created a Birthday application for a company i work for. It was a Internal Sharepoint site. Everything is in Javascript. 
-                        If it is the users B-day i show them at the top of the list. if their B-day is within 2 weeks i also display them but indicate that their B-day is still coming.
+                        I created a Birthday application for the company I work for. It is on our Internal Sharepoint site. Everything is in Javascript. 
+                        When it is someones B-day it indicates that it is today, it also lists upcoming B-days.
                         </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
@@ -138,8 +89,7 @@ class Projects extends Component {
                         <CardTitle style={{color:'#000', height:'176px',background:
                         'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTjwLc6tNy_uSjt-bn7SnQeLIvtUxd156BZEdcFRItAijRwMNc) center / cover'}}>C# project #2</CardTitle>
                         <CardText>
-                        I created a Birthday application for a company i work for. It was a Internal Sharepoint site. Everything is in Javascript. 
-                        If it is the users B-day i show them at the top of the list. if their B-day is within 2 weeks i also display them but indicate that their B-day is still coming.
+                        I created Batman clock using JavaScript / HTML. Reason for this, Who would'nt like a Batman clock? it was a fun little project. 
                         </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
@@ -155,8 +105,8 @@ class Projects extends Component {
                         <CardTitle style={{color:'#000', height:'176px',background:
                         'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTjwLc6tNy_uSjt-bn7SnQeLIvtUxd156BZEdcFRItAijRwMNc) center / cover'}}>C# project #3</CardTitle>
                         <CardText>
-                        I created a Birthday application for a company i work for. It was a Internal Sharepoint site. Everything is in Javascript. 
-                        If it is the users B-day i show them at the top of the list. if their B-day is within 2 weeks i also display them but indicate that their B-day is still coming.
+                        I created a cool image gallery for company events. I created it on our Internal Sharepoint site. I used Javascript and HTML.
+                        When you click the image it enlarges. I got ideas from CodePen.
                         </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
@@ -169,40 +119,6 @@ class Projects extends Component {
                     </Card>
                 </div>
                 )
-                {/*<div className="projects-grid">
-                    
-                    <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto', marginBottom: '10px'}}>
-                        <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Update</CardTitle>
-                        <CardText>
-                        I created a Birthday application for a company i work for. It was a Internal Sharepoint site. Everything is in Javascript. 
-                        If it is the users B-day i show them at the top of the list. if their B-day is within 2 weeks i also display them but indicate that their B-day is still coming.
-                        </CardText>
-                        <CardActions border>
-                            <Button colored>View Updates</Button>
-                        </CardActions>
-                    </Card>
-                    <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto', marginBottom: '10px'}}>
-                        <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Update</CardTitle>
-                        <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Aenan convallis.
-                        </CardText>
-                        <CardActions border>
-                            <Button colored>View Updates</Button>
-                        </CardActions>
-                    </Card>
-                    
-                    <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto', marginBottom: '10px'}}>
-                        <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Update</CardTitle>
-                        <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Aenan convallis.
-                        </CardText>
-                        <CardActions border>
-                            <Button colored>View Updates</Button>
-                        </CardActions>
-                    </Card>
-                </div> */}
             
         }else if(this.state.activeTab ===2){
             return (
@@ -212,7 +128,7 @@ class Projects extends Component {
                         <CardTitle style={{color:'#000', height:'176px',background:
                         'url(https://ih0.redbubble.net/image.416412087.0587/flat,550x550,075,f.jpg) center / cover'}}>C# project #1</CardTitle>
                         <CardText>
-                        I created a app for scania to upload truck info to the DB. They import the data with a Excel sheet and the data is pulled from the sheet to the DB
+                        I created a app for a client called Scania. You upload truck info to the DB. They import the data with a Excel sheet and when the user clicks import, the data is pulled from the sheet to the DB
                         </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
@@ -228,7 +144,7 @@ class Projects extends Component {
                         <CardTitle style={{color:'#000', height:'176px',background:
                         'url(https://ih0.redbubble.net/image.416412087.0587/flat,550x550,075,f.jpg) center / cover'}}>C# project #2</CardTitle>
                         <CardText>
-                        I created a Portfolio site for myself. I created this as i love creating React applications. This was a really fun Project.
+                        I created a Portfolio site for myself. I created this as I love learning new things as well as React. im also in the process of creating sites for family members.
                         </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
