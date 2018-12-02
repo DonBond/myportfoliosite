@@ -14,7 +14,7 @@ class Projects extends Component {
                     {/*Project 1*/}
                     <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
                         <CardTitle style={{color:'#000', height:'176px',background:
-                        'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>C# project #1</CardTitle>
+                        'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>React project #1</CardTitle>
                         <CardText>
                         I created this Portfolio site for myself. I created this as I love creating React applications. 
                         This was a really fun Project.
@@ -31,7 +31,7 @@ class Projects extends Component {
                     {/*Project 2*/}
                     <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
                         <CardTitle style={{color:'#000', height:'176px',background:
-                        'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>C# project #2</CardTitle>
+                        'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>React project #2</CardTitle>
                         <CardText>
                         I created a React Task list app. 
                         This was one of the best sites I created as it helps me get my tasks done. It saves to a xml sheet
@@ -48,7 +48,7 @@ class Projects extends Component {
                     {/*Project 3*/}
                     <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
                         <CardTitle style={{color:'#000', height:'176px',background:
-                        'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>C# project #3</CardTitle>
+                        'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>React project #3</CardTitle>
                         <CardText>
                             I created a Portfolio site for myself. I created this as i love creating React applications. This was a really fun Project.
                         </CardText>
@@ -70,9 +70,9 @@ class Projects extends Component {
                     {/*Project 1*/}
                     <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
                         <CardTitle style={{color:'#000', height:'176px',background:
-                        'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTjwLc6tNy_uSjt-bn7SnQeLIvtUxd156BZEdcFRItAijRwMNc) center / cover'}}>C# project #1</CardTitle>
+                        'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTjwLc6tNy_uSjt-bn7SnQeLIvtUxd156BZEdcFRItAijRwMNc) center / cover'}}>JS project #1</CardTitle>
                         <CardText>
-                        I created a Birthday application for the company I work for. It is on our Internal Sharepoint site. Everything is in Javascript. 
+                        I created a Birthday application for the company I work for. It is on our Internal Sharepoint site home page. Everything is in Javascript. I fetch data from our User list.
                         When it is someones B-day it indicates that it is today, it also lists upcoming B-days.
                         </CardText>
                         <CardActions border>
@@ -87,9 +87,9 @@ class Projects extends Component {
                     {/*Project 2*/}
                     <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
                         <CardTitle style={{color:'#000', height:'176px',background:
-                        'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTjwLc6tNy_uSjt-bn7SnQeLIvtUxd156BZEdcFRItAijRwMNc) center / cover'}}>C# project #2</CardTitle>
+                        'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTjwLc6tNy_uSjt-bn7SnQeLIvtUxd156BZEdcFRItAijRwMNc) center / cover'}}>JS project #2</CardTitle>
                         <CardText>
-                        I created Batman clock using JavaScript / HTML. Reason for this, Who would'nt like a Batman clock? it was a fun little project. 
+                        I created Batman clock using JavaScript / HTML. Reason for this, Who would'nt like a Batman clock? it was a fun little project. All it does is show the time within the batman Logo.
                         </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
@@ -103,10 +103,10 @@ class Projects extends Component {
                     {/*Project 3*/}
                     <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
                         <CardTitle style={{color:'#000', height:'176px',background:
-                        'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTjwLc6tNy_uSjt-bn7SnQeLIvtUxd156BZEdcFRItAijRwMNc) center / cover'}}>C# project #3</CardTitle>
+                        'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTjwLc6tNy_uSjt-bn7SnQeLIvtUxd156BZEdcFRItAijRwMNc) center / cover'}}>JS project #3</CardTitle>
                         <CardText>
                         I created a cool image gallery for company events. I created it on our Internal Sharepoint site. I used Javascript and HTML.
-                        When you click the image it enlarges. I got ideas from CodePen.
+                        When you click the image it enlarges.
                         </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
@@ -128,7 +128,7 @@ class Projects extends Component {
                         <CardTitle style={{color:'#000', height:'176px',background:
                         'url(https://ih0.redbubble.net/image.416412087.0587/flat,550x550,075,f.jpg) center / cover'}}>C# project #1</CardTitle>
                         <CardText>
-                        I created a app for a client called Scania. You upload truck info to the DB. They import the data with a Excel sheet and when the user clicks import, the data is pulled from the sheet to the DB
+                        I created a app for a client called Scania. They import the data they get on their trucks with the app. Using the app, they select the Excel sheet and click import data. The data is pulled from the Excel sheet to the tables in the Database.
                         </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
@@ -160,7 +160,8 @@ class Projects extends Component {
                         <CardTitle style={{color:'#000', height:'176px',background:
                         'url(https://ih0.redbubble.net/image.416412087.0587/flat,550x550,075,f.jpg) center / cover'}}>C# project #3</CardTitle>
                         <CardText>
-                        I created a site for fetching data from a device in Zimbabwe. if gets the data from a excel sheet. It checks the date and if it is todays date it gets data for today
+                        I created a site for fetching data from a device in Zimbabwe. it gets the data from a excel sheet that is loaded to a FTP site.
+                        It checks the date, and if it is todays date it gets data for today. 
                         </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>

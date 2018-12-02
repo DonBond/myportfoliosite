@@ -76,18 +76,19 @@ class Resume extends Component {
                         </div>
                         <h2 style={{paddingTop:'2em'}}>Donovan Botes</h2>
                         <h4 style={{color:'grey'}}>Developer</h4>
-                        <hr style={{borderTop:'3px solid #833fb2',width:'50%'}} />
+                       {/*  <hr style={{borderTop:'3px solid #833fb2',width:'50%'}} />
                         <p>I'm a Software Developer in the Information Technology Industry. I consider myself to be a hard working and dedicated individual who possess excellent communication and interpersonal skills.</p>
                         <p>I am able to work in diverse and dynamic environments comprising of teams or as an individual. I am self-driven, self-motivated and thoroughly enjoy confronting new challenges. 
                             I have a keen interest in new technology and I continuously strive to develop my skills and knowledge through actively learning, adapting to my environment and embracing change.</p>
+                        */}
                         <hr style={{borderTop:'3px solid #833fb2',width:'50%'}} />
                         <h5>Address</h5>
-                        <p>1 Hacker Way Menlo Park, 94025</p>
+                        <p>Somewhere in South Africa</p>
                         <h5>Phone</h5>
                         <p>072 640 0936</p>
                         <h5>Email</h5>
                         <p>jetdon1@gmail.com</p>
-                        <h5>Web</h5>
+                        <h5>Site</h5>
                         <p>https://donovanbotes.netlify.com</p>
                         <hr style={{borderTop:'3px solid #833fb2',width:'50%'}} />
                     </Cell>
