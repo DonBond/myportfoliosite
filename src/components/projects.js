@@ -20,9 +20,9 @@ class Projects extends Component {
                         This was a really fun Project.
                         </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>Live Demo</Button>
+                            {/*<Button colored>GitHub</Button>
+                            <Button colored>CodePen</Button>*/}
+                            <Button colored><a href="https://donovanbotes.netlify.com" target="_blank">Live Demo</a></Button>
                         </CardActions>
                         <CardMenu style={{color:'#000'}}>
                             <IconButton name="share"/>
@@ -37,9 +37,9 @@ class Projects extends Component {
                         This was one of the best sites I created as it helps me get my tasks done. It saves to a xml sheet
                         </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>Live Demo</Button>
+                            {/*<Button colored>GitHub</Button>
+                            <Button colored>CodePen</Button>*/}
+                            <Button colored><a href="https://donovanreacttodo.netlify.com/" target="_blank">Live Demo</a></Button>
                         </CardActions>
                         <CardMenu style={{color:'#000'}}>
                             <IconButton name="share"/>
@@ -53,8 +53,8 @@ class Projects extends Component {
                             I created a Portfolio site for myself. I created this as i love creating React applications. This was a really fun Project.
                         </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>CodePen</Button>
+                            {/*<Button colored>GitHub</Button>
+                            <Button colored>CodePen</Button>*/}
                             <Button colored>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{color:'#000'}}>
@@ -73,12 +73,12 @@ class Projects extends Component {
                         'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTjwLc6tNy_uSjt-bn7SnQeLIvtUxd156BZEdcFRItAijRwMNc) center / cover'}}>JS project #1</CardTitle>
                         <CardText>
                         I created a Birthday application for the company I work for. It is on our Internal Sharepoint site home page. Everything is in Javascript. I fetch data from our User list.
-                        When it is someones B-day it indicates that it is today, it also lists upcoming B-days.
+                        When it's someones B-day it indicates that it is today, it also lists upcoming B-days.
                         </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>Live Demo</Button>
+                            <Button colored><a href="https://github.com/DonBond/TheBDApp" target="_blank">GitHub</a></Button>
+                            {/*<Button colored>CodePen</Button>
+                            <Button colored>Live Demo</Button>*/}
                         </CardActions>
                         <CardMenu style={{color:'#000'}}>
                             <IconButton name="share"/>
@@ -174,6 +174,57 @@ class Projects extends Component {
                     </Card>
                 </div>
             )
+        }else if(this.state.activeTab ===3){
+            return (
+                <div className="projects-grid">
+                    {/*Project 1*/}
+                    <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
+                        <CardTitle style={{color:'#000', height:'176px',background:
+                        'url(https://ih0.redbubble.net/image.416412087.0587/flat,550x550,075,f.jpg) center / cover'}}>HTML project #1</CardTitle>
+                        <CardText>
+                        I created web pages for EOH articles. I made the template easy to use for developers to create more articles if I leave the company.
+                        </CardText>
+                        <CardActions border>
+                            {/*<Button colored>GitHub</Button>
+                            <Button colored>CodePen</Button>*/}
+                            <Button colored><a href="http://media.eohamp.co.za/" target="_blank">Live Demo</a></Button>
+                        </CardActions>
+                        <CardMenu style={{color:'#000'}}>
+                            <IconButton name="share"/>
+                        </CardMenu>
+                    </Card>
+                    {/*Project 2*/}
+                    <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
+                        <CardTitle style={{color:'#000', height:'176px',background:
+                        'url(https://ih0.redbubble.net/image.416412087.0587/flat,550x550,075,f.jpg) center / cover'}}>HTML project #2</CardTitle>
+                        <CardText>
+                        I created simple web site pages for Sebata while i worked at Turnbuckle.
+                        </CardText>
+                        <CardActions border>
+                            <Button colored><a href="http://www.sebatagroup.com/" target="_blank">Demo 1</a></Button>
+                            <Button colored><a href="http://www.hotelsebata.com/" target="_blank">Demo 2</a></Button>
+                            <Button colored><a href="http://www.sebatalegends.com/" target="_blank">Demo 3</a></Button>
+                        </CardActions>
+                        <CardMenu style={{color:'#000'}}>
+                            <IconButton name="share"/>
+                        </CardMenu>
+                    </Card>
+                    {/*Project 3*/}
+                    <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
+                        <CardTitle style={{color:'#000', height:'176px',background:
+                        'url(https://ih0.redbubble.net/image.416412087.0587/flat,550x550,075,f.jpg) center / cover'}}>HTML project #3</CardTitle>
+                        <CardText>
+                        I created a Portfolio site for my sister using WordPress. I updated the pages using HTML. I styled the pages with custom CSS.
+                        </CardText>
+                        <CardActions border>
+                            <Button colored><a href="https://cindybotes.wordpress.com/" target="_blank">Live Demo</a></Button>
+                        </CardActions>
+                        <CardMenu style={{color:'#000'}}>
+                            <IconButton name="share"/>
+                        </CardMenu>
+                    </Card>
+                </div>
+            )
         }
     }
    
@@ -182,8 +233,9 @@ class Projects extends Component {
             <div className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({activeTab:tabId})} ripple >
                     <Tab>React</Tab>
-                    <Tab>Javascript</Tab>
+                    <Tab>JS</Tab>
                     <Tab>C#</Tab>
+                    <Tab>HTML</Tab>
                 </Tabs>
 
                     <Grid>

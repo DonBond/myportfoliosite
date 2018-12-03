@@ -82,8 +82,6 @@ class Resume extends Component {
                             I have a keen interest in new technology and I continuously strive to develop my skills and knowledge through actively learning, adapting to my environment and embracing change.</p>
                         */}
                         <hr style={{borderTop:'3px solid #833fb2',width:'50%'}} />
-                        <h5>Address</h5>
-                        <p>Somewhere in South Africa</p>
                         <h5>Phone</h5>
                         <p>072 640 0936</p>
                         <h5>Email</h5>
