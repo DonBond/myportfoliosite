@@ -26,7 +26,6 @@ class Contact extends Component {
                             <ListItem>
                                 <ListItemContent style={{fontSize: '150%', fontFamily: 'Anton', justifyContent: 'center'}}>
                                 <i className="fa fa-phone-square" aria-hidden="true"/>
-                                    {/*072 640 0936*/}
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
@@ -37,7 +36,6 @@ class Contact extends Component {
                             <ListItem>
                                 <ListItemContent style={{fontSize: '150%', fontFamily: 'Anton', justifyContent: 'center'}}>
                                 <i className="fa fa-envelope" aria-hidden="true"/>
-                                    {/*jetdon1@gmail.com*/}
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
@@ -48,7 +46,6 @@ class Contact extends Component {
                             <ListItem>
                                 <ListItemContent style={{fontSize: '150%', fontFamily: 'Anton', justifyContent: 'center'}}>
                                 <i className="fa fa-skype" aria-hidden="true"/>
-                                   {/* KingDon1984*/}
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
