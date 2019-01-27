@@ -8,7 +8,7 @@ class Contact extends Component {
                 <Cell col={4}>
                     <div style={{textAlign:'center'}}>
                         <img 
-                                src="https://media.licdn.com/dms/image/C5603AQE6EY0dXCO8rQ/profile-displayphoto-shrink_200_200/0?e=1548288000&v=beta&t=iJvhviP-haV_Zg43ZeFbxTsvIqANCXK72iR15r-QMR0"
+                                src="https://media.licdn.com/dms/image/C5603AQE6EY0dXCO8rQ/profile-displayphoto-shrink_200_200/0?e=1554336000&v=beta&t=nqSrKi2pumyvKGMmwz5N553LFDIJZhO6yZvN4OaDEk8"
                                 alt="avatar"
                                 style={{height:'200px',borderRadius:'50%'}}
                         />
