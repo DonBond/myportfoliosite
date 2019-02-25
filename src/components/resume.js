@@ -167,7 +167,11 @@ class Resume extends Component {
                         />
                         <Skills
                             skill="React"
-                            progress={30}
+                            progress={50}
+                        />
+                        <Skills
+                            skill="Firebase"
+                            progress={50}
                         />
                         <Skills
                             skill="SQL"
@@ -179,7 +183,7 @@ class Resume extends Component {
                         />
                         <Skills
                             skill="Nintex Workflows"
-                            progress={60}
+                            progress={70}
                         />
                     </Cell>
                 </Grid>
