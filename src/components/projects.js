@@ -50,7 +50,7 @@ class Projects extends Component {
                         <CardTitle style={{color:'#000', height:'176px',background:
                         'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>React project #3</CardTitle>
                         <CardText>
-                            I created a Portfolio site for myself. I created this as i love creating React applications. This was a really fun Project.
+                            To be updated soon!
                         </CardText>
                         <CardActions border>
                             {/*<Button colored>GitHub</Button>
@@ -131,9 +131,9 @@ class Projects extends Component {
                         I created a app for a client called Scania. They import the data they get on their trucks with the app. Using the app, they select the Excel sheet and click import data. The data is pulled from the Excel sheet to the tables in the Database.
                         </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
+                            {/*<Button colored>GitHub</Button>
                             <Button colored>CodePen</Button>
-                            <Button colored>Live Demo</Button>
+                            <Button colored>Live Demo</Button>*/}
                         </CardActions>
                         <CardMenu style={{color:'#000'}}>
                             <IconButton name="share"/>
@@ -144,12 +144,12 @@ class Projects extends Component {
                         <CardTitle style={{color:'#000', height:'176px',background:
                         'url(https://ih0.redbubble.net/image.416412087.0587/flat,550x550,075,f.jpg) center / cover'}}>C# project #2</CardTitle>
                         <CardText>
-                        I created a Portfolio site for myself. I created this as I love learning new things as well as React. im also in the process of creating sites for family members.
+                        Will Be updated soon with a new project.
                         </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
+                           {/* <Button colored>GitHub</Button>
                             <Button colored>CodePen</Button>
-                            <Button colored>Live Demo</Button>
+                           <Button colored>Live Demo</Button>*/}
                         </CardActions>
                         <CardMenu style={{color:'#000'}}>
                             <IconButton name="share"/>
@@ -164,9 +164,9 @@ class Projects extends Component {
                         It checks the date, and if it is todays date it gets data for today. 
                         </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
+                            {/*<Button colored>GitHub</Button>
                             <Button colored>CodePen</Button>
-                            <Button colored>Live Demo</Button>
+                            <Button colored>Live Demo</Button>*/}
                         </CardActions>
                         <CardMenu style={{color:'#000'}}>
                             <IconButton name="share"/>
