@@ -86,7 +86,7 @@ class Projects extends Component {
                     </Card>
                     {/*Project 2*/}
                     <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
-                        <CardTitle style={{color:'#000', height:'176px',background: 'url(/public/img/batman.png'}}>JS project #2</CardTitle>
+                        <CardTitle style={{color:'#fff', height:'176px',background: 'url(/img/batman.png'}}>JS project #2</CardTitle>
                         <CardText>
                         I created Batman clock using JavaScript / HTML. Reason for this, Who would'nt like a Batman clock? it was a fun little project. All it does is show the time within the batman Logo.
                         </CardText>
