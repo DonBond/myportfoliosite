@@ -92,9 +92,9 @@ class Projects extends Component {
                         I created Batman clock using JavaScript / HTML. Reason for this, Who would'nt like a Batman clock? it was a fun little project. All it does is show the time within the batman Logo.
                         </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>Live Demo</Button>
+                            <Button colored ><a href="https://github.com/DonBond/batmanClock/tree/master/digital-clock">GitHub</a></Button>
+                            {/*<Button colored>CodePen</Button>
+                            <Button colored>Live Demo</Button>*/}
                         </CardActions>
                         <CardMenu style={{color:'#000'}}>
                             <IconButton name="share"/>
