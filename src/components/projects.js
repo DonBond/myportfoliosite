@@ -34,7 +34,7 @@ class Projects extends Component {
                         'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>React project #2</CardTitle>
                         <CardText>
                         I created a React Task list app. 
-                        This was one of the best sites I created as it helps me get my tasks done. It saves to a xml sheet
+                        This was one of the best sites I created as it helps me get my tasks done.
                         </CardText>
                         <CardActions border>
                             {/*<Button colored>GitHub</Button>
@@ -50,7 +50,7 @@ class Projects extends Component {
                         <CardTitle style={{color:'#000', height:'176px',background:
                         'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>React project #3</CardTitle>
                         <CardText>
-                            To be updated soon!
+                            To be updated soon with a new project!
                         </CardText>
                         <CardActions border>
                             {/*<Button colored>GitHub</Button>
