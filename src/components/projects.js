@@ -105,11 +105,11 @@ class Projects extends Component {
                         I created a cool image gallery for company events. I created it on our Internal Sharepoint site. I used Javascript and HTML.
                         When you click the image it enlarges.
                         </CardText>
-                        <CardActions border>
+                        {/* <CardActions border>
                             <Button colored>GitHub</Button>
                             <Button colored>CodePen</Button>
                             <Button colored>Live Demo</Button>
-                        </CardActions>
+                        </CardActions> */}
                         <CardMenu style={{color:'#000'}}>
                             <IconButton name="share"/>
                         </CardMenu>
