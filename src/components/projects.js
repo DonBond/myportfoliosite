@@ -39,28 +39,26 @@ class Projects extends Component {
                         <CardActions border>
                             {/*<Button colored>GitHub</Button>
                             <Button colored>CodePen</Button>*/}
-                            <Button colored><a href="https://donovanreacttodo.netlify.com/" target="_blank">Live Demo</a></Button>
+                            {/* <Button colored><a href="https://donovanreacttodo.netlify.com/" target="_blank">Live Demo</a></Button> */}
                         </CardActions>
                         <CardMenu style={{color:'#000'}}>
                             <IconButton name="share"/>
                         </CardMenu>
                     </Card>
                     {/*Project 3*/}
-                    <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
+                    {/* <Card shadow={5} style={{minWidth:'450', margin:'auto', marginBottom: '10px'}}>
                         <CardTitle style={{color:'#000', height:'176px',background:
                         'url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover'}}>React project #3</CardTitle>
                         <CardText>
                             To be updated soon with a new project!
                         </CardText>
                         <CardActions border>
-                            {/*<Button colored>GitHub</Button>
-                            <Button colored>CodePen</Button>*/}
                             <Button colored>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{color:'#000'}}>
                             <IconButton name="share"/>
                         </CardMenu>
-                    </Card>
+                    </Card> */}
                 </div>
                 )       
             
