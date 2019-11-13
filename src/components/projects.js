@@ -22,7 +22,7 @@ class Projects extends Component {
                         <CardActions border>
                             {/*<Button colored>GitHub</Button>
                             <Button colored>CodePen</Button>*/}
-                            <Button colored><a href="https://donovanbotes.netlify.com" target="_blank">Live Demo</a></Button>
+                            {/* <Button colored><a href="https://donovanbotes.netlify.com" target="_blank">Live Demo</a></Button> */}
                         </CardActions>
                         <CardMenu style={{color:'#000'}}>
                             <IconButton name="share"/>
